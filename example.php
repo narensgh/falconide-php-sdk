@@ -1,7 +1,4 @@
 <?php
-
-//require './Falconide.php';
-//require './Email.php';
 require './vendor/autoload.php';
 
 $falconide = new Falconide\Falconide();
