@@ -1,0 +1,17 @@
+{
+    "name": "falconide",
+    "description": "This library allows you to quickly and easily send emails through Falconide using PHP.",
+    "version": "1.0.0",
+    "homepage": "https://github.com/falconide/falconide-php-sdk",
+    "keywords": ["falconide", "email", "send", "transactional mails"],
+    "require": {
+        "php": ">=5.3",
+        "guzzle/guzzle": "~3.9"
+    },
+    "type": "library",
+    "autoload": {
+        "psr-0": {
+            "Falconide":"library/"
+        }
+    }
+}
